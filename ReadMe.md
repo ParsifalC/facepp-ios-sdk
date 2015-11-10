@@ -7,7 +7,9 @@
 	- Example: `[FaceppAPI initWithApiKey: @"YOUR_KEY" andApiSecret: @"YOUR_SECRET" andRegion: API_SERVER_REGION]`
 
 ------------------------------------------------------
-##To integrate FacePlusPlus SDK into your iOS project
+##CocoaPods
+pod 'FacePlusPlus', '~> 1.0.0'
+##Manually
 
 1. In the finder, drag FaceppSDK into project's file folder.
 
@@ -47,8 +49,10 @@ FaceppResult\* result = [[FaceppAPI group] deleteWithGroupName: @"GROUP_NAME" or
 -- More sample codes would be found in "FaceppDemo" --
 
 -------------------------------------------------------------------------------------
+##CocoaPods
+pod 'FacePlusPlus', '~> 1.0.0'
 
-##您只需要做以下几个步骤就可以将FacePlusPlus SDK集成到您的iOS工程中
+##手动配置
 
 1. 在finder中，将FaceppSDK目录拖入工程目录下
 
