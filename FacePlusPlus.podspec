@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "FacePlusPlus"
   s.version      = "1.0.0"
-  s.summary      = "Face++ uses the cutting-edge technology of computer vision and data mining to provide 3 core vision services (Detection, Recognition, and Analysis). With the service and huge database of celebrity from Face++, the developers can apply the face technology into their own websites, mobile Apps, and smart TVs, increasing incredible user experience."
+  s.summary      = "FacePlusPlus sdk for iOS."
 
   s.description  = <<-DESC
                    A longer description of FacePlusPlus in Markdown format.
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
+     s.license       =  'MIT'
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -115,8 +115,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
+     s.frameworks = 'Foundation', 'UIKit'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
